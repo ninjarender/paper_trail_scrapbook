@@ -14,13 +14,13 @@ Gem::Specification.new do |gem|
   gem.license     = 'MIT'
 
   gem.required_rubygems_version = '>= 1.3.6'
-  gem.required_ruby_version = '>= 3.1.0'
+  gem.required_ruby_version = '>= 3.0.0'
 
   # Rails does not follow semver, makes breaking changes in minor versions.
   gem.add_dependency 'activerecord'
   gem.add_dependency 'adamantium'
   gem.add_dependency 'concord'
-  gem.add_dependency 'paper_trail', ['>= 5.2', '<= 12.2.0']
+  gem.add_dependency 'paper_trail', ['>= 5.2']
 
   gem.add_development_dependency 'ffaker', '~> 2.20'
   gem.add_development_dependency 'rake', '~> 13.0.1'
